@@ -1,0 +1,13 @@
+include:
+  - "iphone.glb"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+defaults:
+  - scope:
+      path: ""
+      type: "glb"
+    values:
+      content_type: "model/gltf-binary"
